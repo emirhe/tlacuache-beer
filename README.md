@@ -70,8 +70,8 @@ cp src/main/resources/config.properties.example src/main/resources/config.proper
 DB_HOST=localhost
 DB_PORT=3306
 DB_NAME=tlacuache_beer
-DB_USER=admin
-DB_PASSWORD=root
+DB_USER=tlacuache
+DB_PASSWORD=********
 ```
 
 
