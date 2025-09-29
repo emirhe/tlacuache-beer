@@ -1,0 +1,25 @@
+
+# Maven
+/target/
+/.mvn/wrapper/maven-wrapper.jar
+
+# IDEs
+/.idea/
+/*.iml
+/.project
+/.classpath
+/.settings/
+/nbproject/private/
+/build/
+/dist/
+/.vscode/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos sensibles
+src/main/resources/config.properties
+.env
+*.keystore
+*.secret
