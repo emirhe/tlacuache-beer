@@ -44,12 +44,19 @@ Progetto sviluppato con **Jakarta EE + JSP/Servlet + JDBC** e un **connection po
 ![Menu](docs/img/view-menu.png)
 *Menu dei cataloghi*
 
-## Configurare database MySQL
+## Configurare database MySQL (opzionale)
 ```sql
 CREATE DATABASE tlacuache_beer;
-CREATE USER 'admin'@'localhost' IDENTIFIED BY 'root';
-GRANT ALL PRIVILEGES ON tlacuache_beer.* TO 'admin'@'localhost';
+CREATE USER 'tlacuache'@'localhost' IDENTIFIED BY '********';
+GRANT ALL PRIVILEGES ON tlacuache_beer.* TO 'tlacuache'@'localhost';
 FLUSH PRIVILEGES;
+```
+
+## Script SQL
+### Esempio di importazione schema e dati
+```bash
+mysql -u tlacuache -p tlacuache_beer < docs/sql/schema.sql
+mysql -u tlacuache -p tlacuache_beer < docs/sql/seed.sql
 ```
 
 ## Configurare credenziali
@@ -65,14 +72,6 @@ DB_PORT=3306
 DB_NAME=tlacuache_beer
 DB_USER=admin
 DB_PASSWORD=root
-```
-
-
-## Script SQL
-### Esempio di importazione schema e dati
-```bash
-mysql -u tlacuache -proot tlacuache_beer < docs/sql/schema.sql
-mysql -u tlacuache -proot tlacuache_beer < docs/sql/seed.sql
 ```
 
 

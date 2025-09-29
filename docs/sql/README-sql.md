@@ -5,5 +5,5 @@
 
 - Importare in MySQL:
   ```bash
-  mysql -u ecom -pecom123! ecommerce < schema.sql
-  mysql -u ecom -pecom123! ecommerce < seed.sql
+  mysql -u tlacuache -p tlacuache_beer < schema.sql
+  mysql -u tlacuache -p tlacuache_beer < seed.sql
