@@ -81,4 +81,5 @@ Emir Hernandez
 - Progetto didattico - sviluppo di applicazioni web con Java
 
 ## Licenza
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
 - Uso didattico / demo - utilizzo libero per fini accademici e di apprendimento
